@@ -28,7 +28,11 @@ def num(val):
 # TODO -> Function to get result
 def equals():
     try:
-        if input_var.get()[0] == "0":
+        if input_var.get()=="0/0":
+            result="Infinity"
+        elif input_var.get()[1] in [:
+            reult="0"
+        elif input_var.get()[0] == "0" and input_var.get()[1] not in ["/","+","-","*"]:
             result = eval(input_var.get()[1:])
         else:
             result = eval(input_var.get())
