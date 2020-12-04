@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 
 # TODO -> Initialize Window
 root = Tk()
-root.geometry("1000x520")
+root.geometry("600x520")
 root.title("Intra Calculator")
 root.resizable(width=False, height=False)
 root.config(bg="grey20")
